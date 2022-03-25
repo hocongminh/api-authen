@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "hikotech",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false,
+    "omitNull": true,
+    "define": {
+      "charset": "utf8",
+      "collate": "utf8_general_ci"
+    },
+    "pool": {
+      "max": 100,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 30000
+    }
+  }
+}

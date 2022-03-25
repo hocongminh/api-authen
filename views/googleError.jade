@@ -1,0 +1,9 @@
+doctype html5
+html
+  head
+    title Login Error
+    script.
+      if (window.opener && window.opener.logInError) {
+        window.opener.logInError("!{error}");
+        window.close();
+      }

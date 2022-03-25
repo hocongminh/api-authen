@@ -1,0 +1,12 @@
+doctype html5
+html
+  head
+    title Login Successful
+    script.
+      if (window.opener && window.opener.signupHandler) {
+        window.opener.signupHandler(!{JSON.stringify(user)});
+        window.close();
+      }
+
+  body
+    | Login successful ---. Please wait.
